@@ -88,10 +88,6 @@ header nav.navbar-header .menu-left li a img {
 
 /* menu right */
 
-header nav.navbar-header .menu-right {
-  position: relative;
-}
-
 header nav.navbar-header .menu-right li {
   margin-right: 40px;
 }
@@ -100,16 +96,23 @@ header nav.navbar-header .menu-right li:nth-child(5) {
   margin-right: 10px;
 }
 
-header nav.navbar-header .menu-right .dropdown-features {
+header nav.navbar-header .menu-right li.with-dropdown {
+  position: relative;
+}
+
+header nav.navbar-header .menu-right .dropdown-features,
+header nav.navbar-header .menu-right .dropdown-plans,
+header nav.navbar-header .menu-right .dropdown-about,
+header nav.navbar-header .menu-right .dropdown-help {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 40px;
   width: 650px;
   height: 315px;
   background-color: cadetblue;
 }
 
-header nav.navbar-header .menu-right .dropdown-features.active {
+header nav.navbar-header .menu-right .with-dropdown .active {
   display: block;
 }
 

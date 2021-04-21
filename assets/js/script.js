@@ -1,9 +1,11 @@
 $(document).ready(function () {
   //events
-
-  $("#features").click(function () {
-    $(".dropdown-features").toggleClass("active");
+  $(".with-dropdown").click(function () {
+    $(this).find(".dropdown-menu").toggleClass("active");
   });
-});
 
-function classToggle() {}
+  /* $(".with-dropdown").click(function () {
+    $(".with-dropdown").find(".active").removeClass("active");
+    $(this).find(".dropdown-menu").addClass("active");
+  }); */
+});

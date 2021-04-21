@@ -146,7 +146,9 @@ header nav.navbar-header .menu-right .dropdown-help {
   display: none;
   position: absolute;
   /* min-height: 320px; */
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px black;
 }
 
 /* features */

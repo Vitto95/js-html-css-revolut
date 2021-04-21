@@ -1,0 +1,118 @@
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.op-1 {
+  opacity: 1;
+}
+
+.btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-grey {
+  background-color: #ebebeb;
+}
+
+.btn-black {
+  color: white;
+  background-color: rgb(25, 28, 31);
+}
+
+/* /Global */
+
+/* Header */
+
+/* general settings */
+
+header {
+  width: 100vw;
+  height: 100px;
+  /* background-color: cadetblue; */
+}
+
+header nav.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+header nav.navbar-header .menu-left,
+header nav.navbar-header .menu-right {
+  display: flex;
+  align-items: center;
+}
+
+/* general settings */
+
+/* menu left */
+
+header nav.navbar-header .menu-left li:first-child {
+  margin-right: 60px;
+}
+
+header nav.navbar-header .menu-left li {
+  margin-right: 40px;
+}
+
+header nav.navbar-header .menu-left li a img {
+  width: 50px;
+}
+
+/* menu left */
+
+/* menu right */
+
+header nav.navbar-header .menu-right {
+  position: relative;
+}
+
+header nav.navbar-header .menu-right li {
+  margin-right: 40px;
+}
+
+header nav.navbar-header .menu-right li:nth-child(5) {
+  margin-right: 10px;
+}
+
+header nav.navbar-header .menu-right .dropdown-features {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 650px;
+  height: 315px;
+  background-color: cadetblue;
+}
+
+header nav.navbar-header .menu-right .dropdown-features.active {
+  display: block;
+}
+
+/* menu right */
+
+/* /Header */
